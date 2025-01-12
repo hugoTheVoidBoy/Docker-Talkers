@@ -1,0 +1,40 @@
+[1.331s] Invoking command in '/lab1_ws/src/lab1_pkg3': PYTHONPATH=/lab1_ws/src/build/lab1_pkg3/prefix_override:/lab1_ws/src/install/lab1_pkg3/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/lab1_pkg3 build --build-base /lab1_ws/src/build/lab1_pkg3/build install --record /lab1_ws/src/build/lab1_pkg3/install.log --install-scripts $base/lib/lab1_pkg3 --single-version-externally-managed
+[2.009s] running egg_info
+[2.014s] creating ../build/lab1_pkg3/lab1_pkg3.egg-info
+[2.018s] writing ../build/lab1_pkg3/lab1_pkg3.egg-info/PKG-INFO
+[2.029s] writing dependency_links to ../build/lab1_pkg3/lab1_pkg3.egg-info/dependency_links.txt
+[2.037s] writing entry points to ../build/lab1_pkg3/lab1_pkg3.egg-info/entry_points.txt
+[2.042s] writing requirements to ../build/lab1_pkg3/lab1_pkg3.egg-info/requires.txt
+[2.047s] writing top-level names to ../build/lab1_pkg3/lab1_pkg3.egg-info/top_level.txt
+[2.061s] writing manifest file '../build/lab1_pkg3/lab1_pkg3.egg-info/SOURCES.txt'
+[2.150s] reading manifest file '../build/lab1_pkg3/lab1_pkg3.egg-info/SOURCES.txt'
+[2.202s] writing manifest file '../build/lab1_pkg3/lab1_pkg3.egg-info/SOURCES.txt'
+[2.205s] running build
+[2.206s] running build_py
+[2.212s] creating /lab1_ws/src/build/lab1_pkg3/build
+[2.215s] creating /lab1_ws/src/build/lab1_pkg3/build/lib
+[2.218s] creating /lab1_ws/src/build/lab1_pkg3/build/lib/lab1_pkg3
+[2.229s] copying lab1_pkg3/relay.py -> /lab1_ws/src/build/lab1_pkg3/build/lib/lab1_pkg3
+[2.254s] copying lab1_pkg3/talker.py -> /lab1_ws/src/build/lab1_pkg3/build/lib/lab1_pkg3
+[2.278s] copying lab1_pkg3/__init__.py -> /lab1_ws/src/build/lab1_pkg3/build/lib/lab1_pkg3
+[2.292s] running install
+[2.297s] running install_lib
+[2.319s] creating /lab1_ws/src/install/lab1_pkg3/lib/python3.8/site-packages/lab1_pkg3
+[2.336s] copying /lab1_ws/src/build/lab1_pkg3/build/lib/lab1_pkg3/relay.py -> /lab1_ws/src/install/lab1_pkg3/lib/python3.8/site-packages/lab1_pkg3
+[2.370s] copying /lab1_ws/src/build/lab1_pkg3/build/lib/lab1_pkg3/talker.py -> /lab1_ws/src/install/lab1_pkg3/lib/python3.8/site-packages/lab1_pkg3
+[2.405s] copying /lab1_ws/src/build/lab1_pkg3/build/lib/lab1_pkg3/__init__.py -> /lab1_ws/src/install/lab1_pkg3/lib/python3.8/site-packages/lab1_pkg3
+[2.439s] byte-compiling /lab1_ws/src/install/lab1_pkg3/lib/python3.8/site-packages/lab1_pkg3/relay.py to relay.cpython-38.pyc
+[2.480s] byte-compiling /lab1_ws/src/install/lab1_pkg3/lib/python3.8/site-packages/lab1_pkg3/talker.py to talker.cpython-38.pyc
+[2.527s] byte-compiling /lab1_ws/src/install/lab1_pkg3/lib/python3.8/site-packages/lab1_pkg3/__init__.py to __init__.cpython-38.pyc
+[2.560s] running install_data
+[2.568s] creating /lab1_ws/src/install/lab1_pkg3/share/ament_index
+[2.571s] creating /lab1_ws/src/install/lab1_pkg3/share/ament_index/resource_index
+[2.574s] creating /lab1_ws/src/install/lab1_pkg3/share/ament_index/resource_index/packages
+[2.586s] copying resource/lab1_pkg3 -> /lab1_ws/src/install/lab1_pkg3/share/ament_index/resource_index/packages
+[2.610s] copying package.xml -> /lab1_ws/src/install/lab1_pkg3/share/lab1_pkg3
+[2.626s] running install_egg_info
+[2.646s] Copying ../build/lab1_pkg3/lab1_pkg3.egg-info to /lab1_ws/src/install/lab1_pkg3/lib/python3.8/site-packages/lab1_pkg3-0.0.0-py3.8.egg-info
+[3.006s] running install_scripts
+[3.062s] Installing talker = lab1_pkg3.talker:mainrelay script to /lab1_ws/src/install/lab1_pkg3/lib/lab1_pkg3
+[3.075s] writing list of installed files to '/lab1_ws/src/build/lab1_pkg3/install.log'
+[3.106s] Invoked command in '/lab1_ws/src/lab1_pkg3' returned '0': PYTHONPATH=/lab1_ws/src/build/lab1_pkg3/prefix_override:/lab1_ws/src/install/lab1_pkg3/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/lab1_pkg3 build --build-base /lab1_ws/src/build/lab1_pkg3/build install --record /lab1_ws/src/build/lab1_pkg3/install.log --install-scripts $base/lib/lab1_pkg3 --single-version-externally-managed

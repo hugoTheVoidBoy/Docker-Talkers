@@ -1,0 +1,25 @@
+[2.089s] Invoking command in '/lab1_ws/src/lab1_pkg3': PYTHONPATH=/lab1_ws/src/build/lab1_pkg3/prefix_override:/lab1_ws/src/install/lab1_pkg3/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/lab1_pkg3 build --build-base /lab1_ws/src/build/lab1_pkg3/build install --record /lab1_ws/src/build/lab1_pkg3/install.log --install-scripts $base/lib/lab1_pkg3 --single-version-externally-managed
+[2.885s] running egg_info
+[2.893s] writing ../build/lab1_pkg3/lab1_pkg3.egg-info/PKG-INFO
+[2.906s] writing dependency_links to ../build/lab1_pkg3/lab1_pkg3.egg-info/dependency_links.txt
+[2.915s] writing entry points to ../build/lab1_pkg3/lab1_pkg3.egg-info/entry_points.txt
+[2.923s] writing requirements to ../build/lab1_pkg3/lab1_pkg3.egg-info/requires.txt
+[2.928s] writing top-level names to ../build/lab1_pkg3/lab1_pkg3.egg-info/top_level.txt
+[3.062s] reading manifest file '../build/lab1_pkg3/lab1_pkg3.egg-info/SOURCES.txt'
+[3.190s] writing manifest file '../build/lab1_pkg3/lab1_pkg3.egg-info/SOURCES.txt'
+[3.196s] running build
+[3.198s] running build_py
+[3.249s] copying lab1_pkg3/talker.py -> /lab1_ws/src/build/lab1_pkg3/build/lib/lab1_pkg3
+[3.298s] running install
+[3.305s] running install_lib
+[3.397s] copying /lab1_ws/src/build/lab1_pkg3/build/lib/lab1_pkg3/talker.py -> /lab1_ws/src/install/lab1_pkg3/lib/python3.8/site-packages/lab1_pkg3
+[3.494s] byte-compiling /lab1_ws/src/install/lab1_pkg3/lib/python3.8/site-packages/lab1_pkg3/talker.py to talker.cpython-38.pyc
+[3.570s] running install_data
+[3.608s] running install_egg_info
+[3.625s] removing '/lab1_ws/src/install/lab1_pkg3/lib/python3.8/site-packages/lab1_pkg3-0.0.0-py3.8.egg-info' (and everything under it)
+[3.709s] Copying ../build/lab1_pkg3/lab1_pkg3.egg-info to /lab1_ws/src/install/lab1_pkg3/lib/python3.8/site-packages/lab1_pkg3-0.0.0-py3.8.egg-info
+[4.046s] running install_scripts
+[4.119s] Installing relay script to /lab1_ws/src/install/lab1_pkg3/lib/lab1_pkg3
+[4.140s] Installing talker script to /lab1_ws/src/install/lab1_pkg3/lib/lab1_pkg3
+[4.159s] writing list of installed files to '/lab1_ws/src/build/lab1_pkg3/install.log'
+[4.187s] Invoked command in '/lab1_ws/src/lab1_pkg3' returned '0': PYTHONPATH=/lab1_ws/src/build/lab1_pkg3/prefix_override:/lab1_ws/src/install/lab1_pkg3/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/lab1_pkg3 build --build-base /lab1_ws/src/build/lab1_pkg3/build install --record /lab1_ws/src/build/lab1_pkg3/install.log --install-scripts $base/lib/lab1_pkg3 --single-version-externally-managed
