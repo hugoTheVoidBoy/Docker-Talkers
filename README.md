@@ -1,8 +1,8 @@
 Docker makes an environment that everyone in the team can easily access to code. 
 > I familiarized myself with using Docker container of a ros:foxy image in an easily accessed and monitored Linux environment with ROS2 Foxy distro setup to run my Autonomous RC.
 
-Providing Docker is successfully installed.
-> - Bash
+Providing Docker is successfully installed. This Bash can be used in the Window terminal to create and setup the Doker container:
+
 > - docker run -it -v <path_to_repo>/Docker-Talkers/src/:/Docker-Talkers/src/ --name f1tenth_lab1 ros:foxy 					#to set up ros:foxy environment in the repo path
 > - docker start f1tenth_lab1           	#if previously turned off
 > - docker exec -it f1tenth /bin/bash
@@ -27,4 +27,5 @@ By running the launch file, I can open another cmd and observe the nodes change 
 
 ```Bash
 ros2 topic echo ROS2_Drive
+ 
 ```
